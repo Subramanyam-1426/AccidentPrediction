@@ -1,0 +1,83 @@
+{
+  "categorical": {
+    "Weather": [
+      "Clear",
+      "Foggy",
+      "Rainy",
+      "Snowy",
+      "Stormy"
+    ],
+    "Road_Type": [
+      "City Road",
+      "Highway",
+      "Mountain Road",
+      "Rural Road"
+    ],
+    "Time_of_Day": [
+      "Afternoon",
+      "Evening",
+      "Morning",
+      "Night"
+    ],
+    "Road_Condition": [
+      "Dry",
+      "Icy",
+      "Under Construction",
+      "Wet"
+    ],
+    "Vehicle_Type": [
+      "Bus",
+      "Car",
+      "Motorcycle",
+      "Truck"
+    ],
+    "Road_Light_Condition": [
+      "Artificial Light",
+      "Daylight",
+      "No Light"
+    ]
+  },
+  "numerical": {
+    "Traffic_Density": {
+      "min": 0.0,
+      "max": 2.0,
+      "mean": 1.0118733509234827,
+      "median": 1.0
+    },
+    "Speed_Limit": {
+      "min": 30.0,
+      "max": 213.0,
+      "mean": 71.05680317040951,
+      "median": 60.0
+    },
+    "Number_of_Vehicles": {
+      "min": 1.0,
+      "max": 14.0,
+      "mean": 3.293421052631579,
+      "median": 3.0
+    },
+    "Driver_Alcohol": {
+      "min": 0.0,
+      "max": 1.0,
+      "mean": 0.158311345646438,
+      "median": 0.0
+    },
+    "Driver_Age": {
+      "min": 18.0,
+      "max": 69.0,
+      "mean": 43.49076517150396,
+      "median": 43.0
+    },
+    "Driver_Experience": {
+      "min": 9.0,
+      "max": 69.0,
+      "mean": 39.253632760898284,
+      "median": 40.0
+    }
+  },
+  "total_records": 798,
+  "target_distribution": {
+    "0": 559,
+    "1": 239
+  }
+}
